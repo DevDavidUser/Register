@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+<h1 class="text-primary">Welcome to the RegisterPage</h1>
+<form method="POST" action="/register">
+<label>Name</label>
+<input type="name" name="name">
+<label>Email</label>
+<input type="email" name="email">
+<input type="submit" value="Register">
+</form>
+
+<button><a href="/login">Cancel</a></button>
+<%- include('partials/footer') %>
